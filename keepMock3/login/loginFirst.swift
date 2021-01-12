@@ -1,9 +1,3 @@
-//
-//  loginFirst.swift
-//  keepMock1
-//
-//  Created by 悦月越悦 on 2020/11/10.
-//
 import SwiftUI
 import Alamofire
 import SwiftyJSON
