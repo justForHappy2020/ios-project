@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BottomBar-SwiftUI",
+        "repositoryURL": "https://github.com/smartvipere75/bottombar-swiftui",
+        "state": {
+          "branch": "master",
+          "revision": "838ce6316f8282467ebd00cf4d9706dc58978633",
+          "version": null
+        }
+      },
+      {
+        "package": "GSPlayer",
+        "repositoryURL": "https://github.com/wxxsw/GSPlayer.git",
+        "state": {
+          "branch": null,
+          "revision": "95c5498ac7be1101cbe5520a2bf5536352a3b1a0",
+          "version": "0.2.18"
+        }
+      },
+      {
+        "package": "RemoteImage",
+        "repositoryURL": "https://hub.fastgit.org/crelies/RemoteImage.git",
+        "state": {
+          "branch": null,
+          "revision": "7de20453a8b9733eb8e28ae762801c60a5a5f59d",
+          "version": "4.0.0"
+        }
+      },
+      {
+        "package": "SlideOverCard",
+        "repositoryURL": "https://github.com/moifort/swiftUI-slide-over-card.git",
+        "state": {
+          "branch": null,
+          "revision": "9fdc77c16d639d80a789daad0e036a24faf00825",
+          "version": "1.2.1"
+        }
+      },
+      {
+        "package": "SwiftUIX",
+        "repositoryURL": "https://github.com/SwiftUIX/SwiftUIX",
+        "state": {
+          "branch": null,
+          "revision": "c2890b24e56e540b2c2fe00394b3826e4659c97b",
+          "version": "0.0.5"
+        }
+      },
+      {
+        "package": "VideoPlayer",
+        "repositoryURL": "https://github.com/wxxsw/VideoPlayer",
+        "state": {
+          "branch": null,
+          "revision": "73a30d2cc0b58e9a8e063b0333022dc636b45946",
+          "version": "1.1.6"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.2.2)
+  - Introspect (0.1.1)
+  - SwiftUIRefresh (0.0.3):
+    - Introspect (~> 0.1.0)
+  - SwiftValidators (9.0.2)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - SwiftUIRefresh
+  - SwiftValidators
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Introspect
+    - SwiftUIRefresh
+    - SwiftValidators
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Introspect: 50c17d6b1f091f4cfd678ea8a4157ac071808fe3
+  SwiftUIRefresh: ca6ae2718d25aad5dd68bbf5d2ae36ef6ade98bf
+  SwiftValidators: 9be131cdfadb9a29d31e637c947c7306877bf1d4
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 39cc2c497616054beed418dc8a3796e2a7c53c75
+
+COCOAPODS: 1.8.4
