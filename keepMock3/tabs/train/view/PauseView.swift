@@ -18,6 +18,7 @@ struct PauseView: View {
             Spacer()
             HStack{
                 NavigationLink(destination: CourseDetail(cid: cid),isActive:$end) {
+                    //这里要封装成一个Button的View
                     VStack{
                         ZStack{
                             Circle()
@@ -33,7 +34,7 @@ struct PauseView: View {
                         Text("退出训练")
                     }
                 }
-                
+                //这里要封装成一个Button的View
                 VStack{
                     ZStack{
                         Circle()
@@ -51,17 +52,17 @@ struct PauseView: View {
                 }
             }
             .frame(
-                    maxWidth: .infinity,
-                    alignment: .center
+                maxWidth: .infinity,
+                alignment: .center
             )
             Spacer()
         }
         .padding()
         .frame(
-                maxWidth: .infinity,
-                minHeight: 0,
-                maxHeight: .infinity,
-                alignment: .topLeading
+            maxWidth: .infinity,
+            minHeight: 0,
+            maxHeight: .infinity,
+            alignment: .topLeading
         )
         .background(bgColor)
         .edgesIgnoringSafeArea(.all)
