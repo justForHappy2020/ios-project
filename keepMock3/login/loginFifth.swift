@@ -60,7 +60,7 @@ struct loginFifth: View {
                     Text("KG")
                 }
                 
-                NavigationLink(destination: Tabs().navigationBarHidden(true),isActive:$canNext) {
+                NavigationLink(destination: HomeView().navigationBarHidden(true),isActive:$canNext) {
                     Button(action: {
                         if(!(self.height.isEmpty && self.weight.isEmpty)){
                             if(!(checkIpt(str: self.height) && checkIpt(str: self.weight))){

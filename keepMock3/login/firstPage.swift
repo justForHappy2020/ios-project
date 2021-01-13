@@ -46,7 +46,7 @@ struct firstPage: View {
             return AnyView(loginFirst())
         }
         
-        return AnyView(Tabs())
+        return AnyView(HomeView())
     }
     
     func clearDefault(){

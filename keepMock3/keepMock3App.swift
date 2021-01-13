@@ -11,7 +11,7 @@ import SwiftUI
 struct keepMock3App: App {
     var body: some Scene {
         WindowGroup {
-            Tabs()
+            HomeView()
         }
     }
 }

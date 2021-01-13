@@ -36,7 +36,7 @@ struct BasicView:View{
     }
 }
 
-struct Tabs: View {
+struct HomeView: View {
     @State private var selectedIndex: Int = 0
     
     var selectedItem: BottomBarItem {
@@ -56,6 +56,6 @@ struct Tabs: View {
 
 struct Tabs_Previews: PreviewProvider {
     static var previews: some View {
-        Tabs()
+        HomeView()
     }
 }

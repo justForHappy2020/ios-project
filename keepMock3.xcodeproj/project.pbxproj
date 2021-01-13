@@ -13,7 +13,7 @@
 		1D049AF925AD4A8F005A5EF8 /* loginThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D049AF825AD4A8F005A5EF8 /* loginThird.swift */; };
 		1D049AFC25AD4A94005A5EF8 /* loginFourth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D049AFB25AD4A94005A5EF8 /* loginFourth.swift */; };
 		1D049B0025AD4AD4005A5EF8 /* loginFifth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D049AFF25AD4AD4005A5EF8 /* loginFifth.swift */; };
-		1D049B0625AD4B3A005A5EF8 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D049B0525AD4B3A005A5EF8 /* Tabs.swift */; };
+		1D049B0625AD4B3A005A5EF8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D049B0525AD4B3A005A5EF8 /* HomeView.swift */; };
 		1D049B0925AD4B51005A5EF8 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D049B0825AD4B51005A5EF8 /* Train.swift */; };
 		1D049B0C25AD4B87005A5EF8 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D049B0B25AD4B86005A5EF8 /* CourseList.swift */; };
 		1D049B0F25AD4B98005A5EF8 /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D049B0E25AD4B98005A5EF8 /* CourseDetail.swift */; };
@@ -58,6 +58,8 @@
 		1DFE486D25AC711600BD2A82 /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = 1DFE486C25AC711600BD2A82 /* SlideOverCard */; };
 		1DFE487125AC722B00BD2A82 /* RemoteImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1DFE487025AC722B00BD2A82 /* RemoteImage */; };
 		F9899FFFCF33062A07A9FA12 /* Pods_keepMock3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3AEE8ED2CA111A401E54F3 /* Pods_keepMock3.framework */; };
+		FF8A5D2225AEF418000DAD33 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A5D2125AEF418000DAD33 /* NetworkManager.swift */; };
+		FF8A5D2625AEF421000DAD33 /* CourseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A5D2525AEF421000DAD33 /* CourseAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,7 +69,7 @@
 		1D049AF825AD4A8F005A5EF8 /* loginThird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginThird.swift; sourceTree = "<group>"; };
 		1D049AFB25AD4A94005A5EF8 /* loginFourth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginFourth.swift; sourceTree = "<group>"; };
 		1D049AFF25AD4AD4005A5EF8 /* loginFifth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginFifth.swift; sourceTree = "<group>"; };
-		1D049B0525AD4B3A005A5EF8 /* Tabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		1D049B0525AD4B3A005A5EF8 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1D049B0825AD4B51005A5EF8 /* Train.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
 		1D049B0B25AD4B86005A5EF8 /* CourseList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		1D049B0E25AD4B98005A5EF8 /* CourseDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
@@ -111,6 +113,8 @@
 		46943FDD4EBC8CFF790C4AAC /* Pods-keepMock3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keepMock3.debug.xcconfig"; path = "Target Support Files/Pods-keepMock3/Pods-keepMock3.debug.xcconfig"; sourceTree = "<group>"; };
 		4B3AEE8ED2CA111A401E54F3 /* Pods_keepMock3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_keepMock3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD2892B498A4EB5A8B3FBDF /* Pods-keepMock3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keepMock3.release.xcconfig"; path = "Target Support Files/Pods-keepMock3/Pods-keepMock3.release.xcconfig"; sourceTree = "<group>"; };
+		FF8A5D2125AEF418000DAD33 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FF8A5D2525AEF421000DAD33 /* CourseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +142,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1D049AD625AD401F005A5EF8 /* login */ = {
+		1D049AD625AD401F005A5EF8 /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				1D049AFF25AD4AD4005A5EF8 /* loginFifth.swift */,
@@ -148,28 +152,16 @@
 				1D049AEC25AD4A65005A5EF8 /* firstPage.swift */,
 				1D049AEF25AD4A7C005A5EF8 /* loginFirst.swift */,
 			);
-			path = login;
+			path = Login;
 			sourceTree = "<group>";
 		};
-		1D049AD725AD402A005A5EF8 /* tabs */ = {
-			isa = PBXGroup;
-			children = (
-				1D049AD825AD405F005A5EF8 /* train */,
-				1D049B6A25AD51E8005A5EF8 /* social */,
-				1D049B6F25AD63FE005A5EF8 /* user */,
-				1D049B6E25AD63E1005A5EF8 /* diet */,
-				1D049B0525AD4B3A005A5EF8 /* Tabs.swift */,
-			);
-			path = tabs;
-			sourceTree = "<group>";
-		};
-		1D049AD825AD405F005A5EF8 /* train */ = {
+		1D049AD825AD405F005A5EF8 /* Train */ = {
 			isa = PBXGroup;
 			children = (
 				1D049B0425AD4B04005A5EF8 /* view */,
 				1D049B0225AD4ADF005A5EF8 /* model */,
 			);
-			path = train;
+			path = Train;
 			sourceTree = "<group>";
 		};
 		1D049B0225AD4ADF005A5EF8 /* model */ = {
@@ -210,7 +202,7 @@
 			path = Filter;
 			sourceTree = "<group>";
 		};
-		1D049B3925AD4E14005A5EF8 /* common */ = {
+		1D049B3925AD4E14005A5EF8 /* Util */ = {
 			isa = PBXGroup;
 			children = (
 				1D049B7D25AD7868005A5EF8 /* data */,
@@ -218,7 +210,7 @@
 				1D049B3B25AD4E57005A5EF8 /* view */,
 				1D049B3A25AD4E37005A5EF8 /* style */,
 			);
-			path = common;
+			path = Util;
 			sourceTree = "<group>";
 		};
 		1D049B3A25AD4E37005A5EF8 /* style */ = {
@@ -246,13 +238,13 @@
 			path = method;
 			sourceTree = "<group>";
 		};
-		1D049B4925AD4EEE005A5EF8 /* search */ = {
+		1D049B4925AD4EEE005A5EF8 /* Serach */ = {
 			isa = PBXGroup;
 			children = (
 				1D049B4D25AD4F62005A5EF8 /* model */,
 				1D049B4C25AD4F5C005A5EF8 /* view */,
 			);
-			path = search;
+			path = Serach;
 			sourceTree = "<group>";
 		};
 		1D049B4C25AD4F5C005A5EF8 /* view */ = {
@@ -286,7 +278,7 @@
 			path = tabs;
 			sourceTree = "<group>";
 		};
-		1D049B6A25AD51E8005A5EF8 /* social */ = {
+		1D049B6A25AD51E8005A5EF8 /* Social */ = {
 			isa = PBXGroup;
 			children = (
 				1D049B7725AD781F005A5EF8 /* model */,
@@ -294,26 +286,27 @@
 				1D049B7325AD7810005A5EF8 /* SettingsView.swift */,
 				1D049B6B25AD6157005A5EF8 /* ExploreView.swift */,
 			);
-			path = social;
+			path = Social;
 			sourceTree = "<group>";
 		};
-		1D049B6E25AD63E1005A5EF8 /* diet */ = {
+		1D049B6E25AD63E1005A5EF8 /* Diet */ = {
 			isa = PBXGroup;
 			children = (
 				1D049B7B25AD783F005A5EF8 /* model */,
 				1D049B7A25AD7832005A5EF8 /* view */,
 			);
-			path = diet;
+			name = Diet;
+			path = tabs/Diet;
 			sourceTree = "<group>";
 		};
-		1D049B6F25AD63FE005A5EF8 /* user */ = {
+		1D049B6F25AD63FE005A5EF8 /* User */ = {
 			isa = PBXGroup;
 			children = (
 				1D049B7925AD782C005A5EF8 /* model */,
 				1D049B7825AD7827005A5EF8 /* view */,
 				1D049B7025AD640F005A5EF8 /* UserView.swift */,
 			);
-			path = user;
+			path = User;
 			sourceTree = "<group>";
 		};
 		1D049B7625AD7816005A5EF8 /* view */ = {
@@ -388,10 +381,15 @@
 		1DFE484625AC6DA000BD2A82 /* keepMock3 */ = {
 			isa = PBXGroup;
 			children = (
-				1D049B4925AD4EEE005A5EF8 /* search */,
-				1D049B3925AD4E14005A5EF8 /* common */,
-				1D049AD725AD402A005A5EF8 /* tabs */,
-				1D049AD625AD401F005A5EF8 /* login */,
+				1D049B0525AD4B3A005A5EF8 /* HomeView.swift */,
+				1D049AD825AD405F005A5EF8 /* Train */,
+				1D049B6A25AD51E8005A5EF8 /* Social */,
+				1D049B6F25AD63FE005A5EF8 /* User */,
+				1D049B6E25AD63E1005A5EF8 /* Diet */,
+				1D049B4925AD4EEE005A5EF8 /* Serach */,
+				1D049B3925AD4E14005A5EF8 /* Util */,
+				1D049AD625AD401F005A5EF8 /* Login */,
+				FF8A5D2025AEF3E1000DAD33 /* Network */,
 				1DFE484725AC6DA000BD2A82 /* keepMock3App.swift */,
 				1DFE484925AC6DA000BD2A82 /* ContentView.swift */,
 				1DFE484B25AC6DA600BD2A82 /* Assets.xcassets */,
@@ -416,6 +414,15 @@
 				9BD2892B498A4EB5A8B3FBDF /* Pods-keepMock3.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF8A5D2025AEF3E1000DAD33 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FF8A5D2125AEF418000DAD33 /* NetworkManager.swift */,
+				FF8A5D2525AEF421000DAD33 /* CourseAPI.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -549,12 +556,14 @@
 				1D049B1F25AD4BDF005A5EF8 /* PauseView.swift in Sources */,
 				1D049B3E25AD4E6E005A5EF8 /* res.swift in Sources */,
 				1D049B4425AD4EAC005A5EF8 /* Spinner.swift in Sources */,
+				FF8A5D2225AEF418000DAD33 /* NetworkManager.swift in Sources */,
 				1D049B4125AD4E73005A5EF8 /* method.swift in Sources */,
 				1D049B5225AD5014005A5EF8 /* all.swift in Sources */,
 				1D049B2825AD4BFE005A5EF8 /* FilterViewModel.swift in Sources */,
 				1D049AF025AD4A7C005A5EF8 /* loginFirst.swift in Sources */,
 				1D049B1625AD4BBE005A5EF8 /* FilterItem.swift in Sources */,
 				1D049B2225AD4BE4005A5EF8 /* SuccessView.swift in Sources */,
+				FF8A5D2625AEF421000DAD33 /* CourseAPI.swift in Sources */,
 				1D049B7125AD640F005A5EF8 /* UserView.swift in Sources */,
 				1D049B2525AD4BE9005A5EF8 /* VideoCacheView.swift in Sources */,
 				1D049AF925AD4A8F005A5EF8 /* loginThird.swift in Sources */,
@@ -573,7 +582,7 @@
 				1D049B7425AD7810005A5EF8 /* SettingsView.swift in Sources */,
 				1D049B8525AD78F6005A5EF8 /* SearchAll.swift in Sources */,
 				1D049B5525AD5019005A5EF8 /* SearchCourse.swift in Sources */,
-				1D049B0625AD4B3A005A5EF8 /* Tabs.swift in Sources */,
+				1D049B0625AD4B3A005A5EF8 /* HomeView.swift in Sources */,
 				1D049B0025AD4AD4005A5EF8 /* loginFifth.swift in Sources */,
 				1D049AFC25AD4A94005A5EF8 /* loginFourth.swift in Sources */,
 				1D049B4F25AD500A005A5EF8 /* SearchResult.swift in Sources */,

@@ -8,6 +8,7 @@
 import Alamofire
 import SwiftyJSON
 
+
 struct CourseRetDto:Decodable{
     var courseList: [CourseNotAction]
     var hasNext: Bool

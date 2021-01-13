@@ -182,7 +182,7 @@ struct loginSecond: View {
             return AnyView(loginThird())
         }
         
-        return AnyView(Tabs())
+        return AnyView(HomeView())
     }
     
 }
