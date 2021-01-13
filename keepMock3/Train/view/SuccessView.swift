@@ -72,7 +72,7 @@ struct SuccessView: View{
                     .cornerRadius(10)
             }
             
-            NavigationLink(destination: Tabs().navigationBarHidden(true).navigationBarTitle(""),isActive:$end) {
+            NavigationLink(destination: HomeView().navigationBarHidden(true).navigationBarTitle(""),isActive:$end) {
                 EmptyView()
             }
         }

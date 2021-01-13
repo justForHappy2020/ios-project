@@ -60,6 +60,7 @@
 		F9899FFFCF33062A07A9FA12 /* Pods_keepMock3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3AEE8ED2CA111A401E54F3 /* Pods_keepMock3.framework */; };
 		FF8A5D2225AEF418000DAD33 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A5D2125AEF418000DAD33 /* NetworkManager.swift */; };
 		FF8A5D2625AEF421000DAD33 /* CourseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A5D2525AEF421000DAD33 /* CourseAPI.swift */; };
+		FF8A5D5225AF47B1000DAD33 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF8A5D5125AF47B1000DAD33 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF8A5D5225AF47B1000DAD33 /* SDWebImageSwiftUI in Frameworks */,
 				1DFE486D25AC711600BD2A82 /* SlideOverCard in Frameworks */,
 				F9899FFFCF33062A07A9FA12 /* Pods_keepMock3.framework in Frameworks */,
 				1DFE487125AC722B00BD2A82 /* RemoteImage in Frameworks */,
@@ -449,6 +451,7 @@
 				1DFE486825AC704800BD2A82 /* SwiftUIX */,
 				1DFE486C25AC711600BD2A82 /* SlideOverCard */,
 				1DFE487025AC722B00BD2A82 /* RemoteImage */,
+				FF8A5D5125AF47B1000DAD33 /* SDWebImageSwiftUI */,
 			);
 			productName = keepMock3;
 			productReference = 1DFE484425AC6DA000BD2A82 /* keepMock3.app */;
@@ -483,6 +486,7 @@
 				1DFE486725AC704800BD2A82 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
 				1DFE486B25AC711600BD2A82 /* XCRemoteSwiftPackageReference "swiftUI-slide-over-card" */,
 				1DFE486F25AC722B00BD2A82 /* XCRemoteSwiftPackageReference "RemoteImage" */,
+				FF8A5D5025AF47B1000DAD33 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 1DFE484525AC6DA000BD2A82 /* Products */;
 			projectDirPath = "";
@@ -829,6 +833,14 @@
 				minimumVersion = 4.0.0;
 			};
 		};
+		FF8A5D5025AF47B1000DAD33 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -856,6 +868,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1DFE486F25AC722B00BD2A82 /* XCRemoteSwiftPackageReference "RemoteImage" */;
 			productName = RemoteImage;
+		};
+		FF8A5D5125AF47B1000DAD33 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF8A5D5025AF47B1000DAD33 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
