@@ -273,6 +273,7 @@ struct CourseDetail: View {
     }
 
     struct joinBtn: View{
+        
         enum status:Int{
             case hasCache
             case hasNotCache
