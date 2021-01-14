@@ -5,6 +5,8 @@
 //  Created by ztwang on 2021/1/14.
 //
 //modiferByweiwenyue
+//modifedByWzt
+
 import SwiftUI
 
 struct CourseView: View {
