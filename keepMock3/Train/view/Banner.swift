@@ -12,7 +12,7 @@ struct Banner: View {
         ZStack{
             Image("shareImage")
                 .resizable()
-                .frame(maxWidth: .infinity,maxHeight:200)
+                .frame(width: .infinity, height: 200)
             VStack{
                 Text("courseName")
                     .textStyle(.courseName)

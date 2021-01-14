@@ -17,16 +17,18 @@ struct CourseContent: View {
                     .padding(.bottom, 10.0)
                 Spacer()
                 Text("5个动作")
-            }.padding()
-            
-            ScrollView(.horizontal) {
+            }
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 10) {
+                    CourseItem()
+                    CourseItem()
                     CourseItem()
                     CourseItem()
                     CourseItem()
                 }
             }
         }
+        .padding()
     }
 }
 

@@ -16,7 +16,7 @@ struct RelatedCourses: View {
                 .padding(.bottom, 10.0)
                 .frame(maxWidth: .infinity,alignment: .leading)
             
-            ScrollView(.horizontal) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 10) {
                     CourseItem()
                     CourseItem()
