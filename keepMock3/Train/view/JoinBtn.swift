@@ -8,19 +8,27 @@
 import SwiftUI
 
 struct JoinBtn: View {
+    
+    let text: String
+    let color: Color
+    let action: () -> Void
+
     var body: some View {
-        Text("参加课程")
-            .fontWeight(.bold)
-            .padding(.vertical,10)
-            .frame(maxWidth:.infinity)
-            .background(boldGreenColor)
-            .foregroundColor(.white)
-            .padding(.bottom,20)
+        Button(action: action) {
+            Text("参加课程")
+                .fontWeight(.bold)
+                .font(.title2)
+                .foregroundColor(.white)
+        }
+        .frame(maxWidth: .infinity, maxHeight: 50)
+        .background(boldGreenColor)
     }
 }
 
 struct JoinBtn_Previews: PreviewProvider {
     static var previews: some View {
-        JoinBtn()
+        JoinBtn(text: "参加课程", color: .blue) {
+            print("Click")
+        }
     }
 }
